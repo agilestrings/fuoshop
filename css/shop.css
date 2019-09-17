@@ -1,0 +1,47 @@
+ * {
+     margin: 0;
+     padding: 0;
+ }
+
+ body {
+     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/background.jpg);
+     background-position: center;
+     background-size: cover;
+     font-family: sans-serif;
+ }
+
+ .menu-tabs {
+     width: 100%;
+ }
+
+ .menu-tabs img {
+     height: 35px;
+     margin: 20px 50px;
+     cursor: pointer;
+ }
+
+ .menu-tabs ul {
+      display: inline-flex;
+      color: #fff;
+      list-style: none;
+      position: absolute;
+      top: 15px;
+      right: 60px;
+ }
+
+ .menu-tabs ul li {
+     margin: 15px;
+     cursor: pointer;
+     font-size: 18px;
+ }
+
+ .menu-tabs ul li .fa {
+     margin-right: 13px;
+     font-size: 20px;
+ }
+
+ .section-main {
+     width: 80%;
+     color: #fff;
+     margin: 16% auto 0;
+ }
